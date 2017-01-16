@@ -143,3 +143,4 @@
 - [啄木鸟Python社区](http://wiki.woodpecker.org.cn/moin/)
 - [Python For Beginners](https://www.python.org/about/gettingstarted/)
 - [知道创宇研发技能表v3.1](http://blog.knownsec.com/Knownsec_RD_Checklist/index.html)
+- [awesome-python](https://github.com/vinta/awesome-python)

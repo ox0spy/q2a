@@ -34,6 +34,8 @@
 
 ### CSS (2周)
 
+#### 入门
+
 学习文档：
 
 - [CSS3](http://study.163.com/course/introduction/190001.htm#/courseDetail)
@@ -42,6 +44,12 @@
 - [学习CSS布局](http://zh.learnlayout.com/)
 - Eric Meyer 谈 CSS(卷2)
 - 精通CSS
+- [CSS居中]
+ + [CSS居中完整版](https://github.com/Erichain/css-center-complete/blob/master/README-ZH_CN.md)
+ + [Seven Ways of Centering With CSS](http://thenewcode.com/723/Seven-Ways-of-Centering-With-CSS)
+ + [CSS 居中大全](http://jinlong.github.io/2013/08/13/centering-all-the-directions/)
+ + [总结一些DIV居中的方法](https://github.com/simaQ/cssfun/issues/3)
+ + [CSS居中完整指南](https://www.w3cplus.com/css/centering-css-complete-guide.html)
 
 最后的两本书做参考吧。
 
@@ -54,6 +62,12 @@
 - 学会在Chrome中查看、修改元素的CSS设置
 - 自己通过HTML + CSS完成该题目 <http://ife.baidu.com/2016/task/detail?taskId=2>
 - 还有兴趣可以完成该题目 <http://ife.baidu.com/2016/task/detail?taskId=7>
+
+#### 进阶
+
+- CSS 预处理器
+ + [浅谈 CSS 预处理器（一）：为什么要使用预处理器？](https://github.com/cssmagic/blog/issues/73)
+ + [浅谈 CSS 预处理器（二）：如何快速上手？](https://github.com/cssmagic/blog/issues/74)
 
 ### JavaScript (2周)
 
@@ -69,6 +83,9 @@
  + [ES6 resource](https://github.com/lenville/es6-resources/blob/master/zh-Hans.md)
  + [ES6 features](https://github.com/ES-CN/es6features)
  + [learn es2015](https://babeljs.io/learn-es2015/)
+- ESLint
+ + [ecomfe ESLint wiki](https://github.com/ecomfe/fecs/wiki/ESLint)
+ + [淺入淺出 eslint 與實作](http://denny.qollie.com/2016/07/11/eslint-fxcking-setup/)
 
 
 注：
@@ -76,14 +93,21 @@
 - ES6可能没有时间在这两周内学习，先知道它的存在和它的好处吧
 - ES6是JavaScript新版本的语法，类似Java 8 和 Java的关系。
 -  通过[Babel](https://babeljs.io)可以方便的使用新语法写代码，然后，打包工具结合`Babel`将代码转换成老版本的JavaScript语法
+- 一般是在编辑器或者webpack等工具中配置好ESLint，编码、打包时都会对自己代码做检查了。(强烈建议配置ESLint，避免低级错误)
 
 学习要求：
 
 - 学习JavaScript基本语法
+- 熟悉JavaScript数据类型
+- 理解JavaScript中的this
+- `undefined`, `null`, `NaN`, `''`, `[]`, `{}` 的布尔值是什么?
+- `==`和`===`的差异是什么? 自己编码中请只用`===`
+- 思考下JavaScript中Array和Object的差异
 - DOM操作
 - 事件处理
 - [对浏览器的window有大概了解](http://www.w3school.com.cn/jsref/dom_obj_window.asp)
 - setTimeout、setInterval、clearTimeout、clearInterval
+- 简单看看BOM
 - 完成
  + <http://ife.baidu.com/2016/task/detail?taskId=13>
  + <http://ife.baidu.com/2016/task/detail?taskId=14>
