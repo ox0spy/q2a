@@ -42,6 +42,7 @@
 - [CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
 - [CSS教程](http://www.w3school.com.cn/css/index.asp)
 - [学习CSS布局](http://zh.learnlayout.com/)
+ + [Flexbox，更优雅的布局](https://segmentfault.com/a/1190000002490633)
 - Eric Meyer 谈 CSS(卷2)
 - 精通CSS
 - [CSS居中]
@@ -125,9 +126,10 @@
  + [backbone](http://backbonejs.org/)
  + [underscore](http://underscorejs.org/)
 - CSS框架 (提高开发效率)
- + PC端：[Element](http://element.eleme.io/#/zh-CN)
  + PC端：[Bootstrap](http://www.bootcss.com/)
  + [Ant Design](https://ant.design/)
+ + [Semantic UI](http://www.semantic-ui.cn/)
+ + PC端：[Element](http://element.eleme.io/#/zh-CN)
  + 移动端：[vux](https://vux.li/#!/)
 
 

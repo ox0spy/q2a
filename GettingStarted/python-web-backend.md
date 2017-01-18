@@ -15,6 +15,7 @@
 - [Google's Python Class](https://developers.google.com/edu/python/)
 - [Python教程by廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - [Learn Python The Hard Way](https://learnpythonthehardway.org/)
+- [Think Python 2e](http://codingpy.com/books/thinkpython2/)
 - Python基础教程 或 Python核心编程3
 
 需要掌握：
@@ -96,6 +97,10 @@
  + nginx + gunicorn/uwsgi
  + suprvisor/runit
 
+#### Web Framework Benchmarks
+
+- [Python's Web Framework Benchmarks](http://klen.github.io/py-frameworks-bench/)
+
 ### RDS
 
 - [PEP 249 -- Python Database API Specification v2.0](https://www.python.org/dev/peps/pep-0249/)
@@ -133,6 +138,18 @@
  + nginx
  + apache
 - Web前端，请参考web-frontend.md
+
+### Deploy
+
+WSGI容器
+
+- [gunicorn]
+- [uwsgi]
+
+worker class
+
+- [gevent]
+- [meinheld]
 
 ## 爬虫
 
