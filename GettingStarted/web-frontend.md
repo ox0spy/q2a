@@ -69,6 +69,8 @@
 - CSS 预处理器
  + [浅谈 CSS 预处理器（一）：为什么要使用预处理器？](https://github.com/cssmagic/blog/issues/73)
  + [浅谈 CSS 预处理器（二）：如何快速上手？](https://github.com/cssmagic/blog/issues/74)
+- [Web Fundamentals by Google](https://developers.google.com/web/fundamentals/)
+- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 
 ### JavaScript (2周)
 
@@ -84,6 +86,8 @@
  + [ES6 resource](https://github.com/lenville/es6-resources/blob/master/zh-Hans.md)
  + [ES6 features](https://github.com/ES-CN/es6features)
  + [learn es2015](https://babeljs.io/learn-es2015/)
+ + [ES6-for-humans](https://github.com/metagrover/ES6-for-humans)
+ + [ES6-for-humans中文翻译](https://www.gitbook.com/book/imbubble/es6-for-humans/details/zh-CN-master)
 - ESLint
  + [ecomfe ESLint wiki](https://github.com/ecomfe/fecs/wiki/ESLint)
  + [淺入淺出 eslint 與實作](http://denny.qollie.com/2016/07/11/eslint-fxcking-setup/)
@@ -106,6 +110,7 @@
 - 思考下JavaScript中Array和Object的差异
 - DOM操作
 - 事件处理
+ + [JavaScript 和事件](http://yujiangshui.com/javascript-event/)
 - [对浏览器的window有大概了解](http://www.w3school.com.cn/jsref/dom_obj_window.asp)
 - setTimeout、setInterval、clearTimeout、clearInterval
 - 简单看看BOM
@@ -117,6 +122,7 @@
 ## 调试 (2天)
 
 - [Chrome devtools](https://developer.chrome.com/devtools)
+ + [CHROME开发者工具的小技巧](http://coolshell.cn/articles/17634.html)
 - [微信Web开发者工具](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html)
 
 ## 工具库、框架 (自己学习)
@@ -142,6 +148,10 @@
 ## 打包工具 (自己学习)
 
 - [webpack](https://webpack.github.io/)
+
+## 编码规范
+
+- [网易规范](http://nec.netease.com/)
 
 ## 技术blog
 

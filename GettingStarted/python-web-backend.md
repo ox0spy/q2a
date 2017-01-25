@@ -46,24 +46,63 @@
 
 ### 性能
 
+首先搞清楚四个概念:
+
+- Sync: Blocking operations.
+- Async: Non blocking operations.
+- Concurrency: Making progress together.
+- Parallelism: Making progress in parallel.
+
+注：详细讨论
+
+- [Async Python: The Different Forms of Concurrency](http://masnun.rocks/2016/10/06/async-python-the-different-forms-of-concurrency/)
+
+结论：
+
+- CPU Bound => Multi Processing
+- I/O Bound, Fast I/O, Limited Number of Connections => Multi Threading
+- I/O Bound, Slow I/O, Many connections => Asyncio
+
+```python
+if io_bound:
+    if io_very_slow:
+        print("Use Asyncio")
+    else:
+       print("Use Threads")
+else:
+    print("Multi Processing")
+```
+
+#### GIL
+
+- [UnderstandingGIL.pdf](http://www.dabeaz.com/python/UnderstandingGIL.pdf)
+- [That’s a nice event loop, it’d be a shame](https://forum.dabeaz.com/t/thats-a-nice-event-loop-itd-be-a-shame/118)
+
 #### Python IPC
 
 - https://docs.python.org/3/library/ipc.html
 
-#### 线程与协程
+#### 线程、进程、协程、concurrent.futures
 
+- [threading](https://pymotw.com/3/threading/index.html)
+- [multiprocessing](https://pymotw.com/3/multiprocessing/index.html)
+- concurrent.futures
+ + [](http://masnun.com/2016/03/29/python-a-quick-introduction-to-the-concurrent-futures-module.html)
+ + [concurrent.futures](https://pymotw.com/3/concurrent.futures/)
 - http://blog.rainy.im/2016/04/07/python-thread-and-coroutine/
 - [Python中的进程、线程、协程、同步、异步和回调](http://boolan.com/lecture/1000001045)
 
-#### Gevent
+##### Gevent
 
 - http://www.sunzhongwei.com/gevent.html
 - [gevent: Asynchronous I/O made easy](http://mauveweb.co.uk/posts/2014/07/gevent-asynchronous-io-made-easy.html)
 - [Logging，gevent 与死锁](http://blog.psjay.com/posts/logging_gevent_and_deadlock/)
 
-#### Python 3 asyncio
+##### Python 3 asyncio
 
 - https://community.nitrous.io/tutorials/asynchronous-programming-with-python-3
+ + [aiohttp]()
+ + [uvloop]()
 
 ### FAQ
 
