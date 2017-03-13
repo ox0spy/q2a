@@ -2,6 +2,7 @@
 
 - [web前端技能汇总](https://github.com/JacksonTian/fks)
 - [Web前端开发技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/map-HTML5.md)
+- [前端手册](http://fe.leozhang2018.me/)
 
 
 ## 开发者工具 (2天)
@@ -155,6 +156,7 @@
 
 ## 技术blog
 
+- [饿了么前端](https://zhuanlan.zhihu.com/ElemeFE)
 - [alloyteam](http://www.alloyteam.com/)
 - [淘宝前端团队](http://taobaofed.org/)
 - [奇舞团博客](https://75team.com/)
